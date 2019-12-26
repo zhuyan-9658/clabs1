@@ -3,13 +3,11 @@
 int main()
 { 
     unsigned   int x = 1;
-    int  a =1 ;
-    while (x>0){
-    x<<1;++a;
-    }
-    int n = a-1; 
-    int max_int=(1<<n);   
-    printf("The max value of int on a machine:%d\n",max_int);
-    printf bit [ a]   ;
-    
+    int  n =0 ;
+    while (x!=0){
+    x=x<<1;n=n+1;
+    }   
+    printf("the amount is %d\n",n);
+    printf  ("the max is %u\n",x-1)  ;
+    return 0;
 }
